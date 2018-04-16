@@ -31,14 +31,15 @@
 							</tool>
 							<tool id="com.atollic.truestudio.exe.debug.toolchain.gcc.494112448" name="C Compiler" superClass="com.atollic.truestudio.exe.debug.toolchain.gcc">
 								<option id="com.atollic.truestudio.gcc.directories.select.606464979" name="Include path" superClass="com.atollic.truestudio.gcc.directories.select" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="../../../src/main"/>
-									<listOptionValue builtIn="false" value="../../../src/main/target"/>
-									<listOptionValue builtIn="false" value="../../../lib/main/STM32F3/Drivers/STM32F30x_StdPeriph_Driver/inc"/>
-									<listOptionValue builtIn="false" value="../../../lib/main/CMSIS/CM4/CoreSupport"/>
+									<listOptionValue builtIn="false" value="../../../lib/main/DSP_Lib/Include"/>
+									<listOptionValue builtIn="false" value="../../../src/main/target/SPRACINGF3"/>
 									<listOptionValue builtIn="false" value="../../../lib/main/CMSIS/CM4/DeviceSupport/ST/STM32F30x"/>
 									<listOptionValue builtIn="false" value="../../../lib/main/MAVLink"/>
-									<listOptionValue builtIn="false" value="../../../src/main/target/SPRACINGF3"/>
-									<listOptionValue builtIn="false" value="../../../lib/main/DSP_Lib/Include"/>
+									<listOptionValue builtIn="false" value="../../../lib/main/CMSIS/CM4/CoreSupport"/>
+									<listOptionValue builtIn="false" value="../../../src/main/target"/>
+									<listOptionValue builtIn="false" value="../../../lib/main/STM32F3/Drivers/STM32F30x_StdPeriph_Driver/inc"/>
+									<listOptionValue builtIn="false" value="../../../src/main"/>
+									<listOptionValue builtIn="false" value=".././"/>
 								</option>
 								<option id="com.atollic.truestudio.gcc.symbols.defined.1575703892" name="Defined symbols" superClass="com.atollic.truestudio.gcc.symbols.defined" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="STM32F303xC"/>
@@ -100,7 +101,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="${PARENT-2-PROJECT_LOC}" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="src/main/vcpf4/usbd_cdc_vcp.c|src/main/build/atomic.c|src/main/target/YUPIF7|src/main/target/YUPIF4|src/main/target/X_RACERSPI|src/main/target/VRRACE|src/main/target/TINYFISH|src/main/target/STM32F3DISCOVERY|src/main/target/SPRACINGF4NEO|src/main/target/SPRACINGF4EVO|src/main/target/SPRACINGF3OSD|src/main/target/SPRACINGF3NEO|src/main/target/SPRACINGF3MINI|src/main/target/SPRACINGF3EVO|src/main/target/SPARKY2|src/main/target/SPARKY|src/main/target/SITL|src/main/target/SIRINFPV|src/main/target/SINGULARITY|src/main/target/RG_SSD_F3|src/main/target/REVONANO|src/main/target/REVO|src/main/target/RCEXPLORERF3|src/main/target/RACEBASE|src/main/target/OMNIBUSF7|src/main/target/OMNIBUSF4|src/main/target/OMNIBUS|src/main/target/NUCLEOF722|src/main/target/NUCLEOF7|src/main/target/NERO|src/main/target/NAZE|src/main/target/MULTIFLITEPICO|src/main/target/MOTOLABF4|src/main/target/MOTOLAB|src/main/target/MIDELICF3|src/main/target/MICROSCISKY|src/main/target/MATEKF722|src/main/target/MATEKF405|src/main/target/LUX_RACE|src/main/target/LUMBAF3|src/main/target/link|src/main/target/KROOZX|src/main/target/KIWIF4|src/main/target/KISSFC|src/main/target/KAKUTEF7|src/main/target/KAKUTEF4|src/main/target/ISHAPEDF3|src/main/target/IRCFUSIONF3|src/main/target/IMPULSERCF3|src/main/target/FURYF7|src/main/target/FURYF4|src/main/target/FURYF3|src/main/target/FRSKYF4|src/main/target/FRSKYF3|src/main/target/FISHDRONEF4|src/main/target/FF_PIKOF4|src/main/target/FF_PIKOBLX|src/main/target/FF_FORTINIF4|src/main/target/F4BY|src/main/target/ELLE0|src/main/target/EACHIF3|src/main/target/DOGE|src/main/target/CRAZYFLIE2|src/main/target/COLIBRI_RACE|src/main/target/COLIBRI|src/main/target/CLRACINGF7|src/main/target/CLRACINGF4|src/main/target/CJMCU|src/main/target/CHEBUZZF3|src/main/target/CC3D|src/main/target/BLUEJAYF4|src/main/target/BETAFLIGHTF4|src/main/target/BETAFLIGHTF3|src/main/target/BEEROTORF4|src/main/target/BEEBRAIN_V2F|src/main/target/ANYFCM7|src/main/target/ANYFCF7|src/main/target/ALIENWHOOP|src/main/target/ALIENFLIGHTNGF7|src/main/target/ALIENFLIGHTF4|src/main/target/ALIENFLIGHTF3|src/main/target/ALIENFLIGHTF1|src/main/target/AIRHEROF3|src/main/target/AIR32|src/main/blackbox|src/main/startup/startup_stm32f746xx.s|src/main/startup/startup_stm32f745xx.s|src/main/startup/startup_stm32f722xx.s|src/main/startup/startup_stm32f411xe.s|src/main/startup/startup_stm32f40xx.s|src/main/startup/startup_stm32f3_debug_hardfault_handler.S|src/main/startup/startup_stm32f10x_md_gcc.S|src/main/startup/startup_stm32f10x_hd_gcc.S|${PARENT-2-PROJECT_LOC}" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -175,6 +176,9 @@
 							<tool id="com.atollic.truestudio.exe.release.toolchain.secoutput.601549549" name="Other" superClass="com.atollic.truestudio.exe.release.toolchain.secoutput"/>
 						</toolChain>
 					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src/main/vcpf4/usbd_cdc_vcp.c|src/main/build/atomic.c|src/main/target/YUPIF7|src/main/target/YUPIF4|src/main/target/X_RACERSPI|src/main/target/VRRACE|src/main/target/TINYFISH|src/main/target/STM32F3DISCOVERY|src/main/target/SPRACINGF4NEO|src/main/target/SPRACINGF4EVO|src/main/target/SPRACINGF3OSD|src/main/target/SPRACINGF3NEO|src/main/target/SPRACINGF3MINI|src/main/target/SPRACINGF3EVO|src/main/target/SPARKY2|src/main/target/SPARKY|src/main/target/SITL|src/main/target/SIRINFPV|src/main/target/SINGULARITY|src/main/target/RG_SSD_F3|src/main/target/REVONANO|src/main/target/REVO|src/main/target/RCEXPLORERF3|src/main/target/RACEBASE|src/main/target/OMNIBUSF7|src/main/target/OMNIBUSF4|src/main/target/OMNIBUS|src/main/target/NUCLEOF722|src/main/target/NUCLEOF7|src/main/target/NERO|src/main/target/NAZE|src/main/target/MULTIFLITEPICO|src/main/target/MOTOLABF4|src/main/target/MOTOLAB|src/main/target/MIDELICF3|src/main/target/MICROSCISKY|src/main/target/MATEKF722|src/main/target/MATEKF405|src/main/target/LUX_RACE|src/main/target/LUMBAF3|src/main/target/link|src/main/target/KROOZX|src/main/target/KIWIF4|src/main/target/KISSFC|src/main/target/KAKUTEF7|src/main/target/KAKUTEF4|src/main/target/ISHAPEDF3|src/main/target/IRCFUSIONF3|src/main/target/IMPULSERCF3|src/main/target/FURYF7|src/main/target/FURYF4|src/main/target/FURYF3|src/main/target/FRSKYF4|src/main/target/FRSKYF3|src/main/target/FISHDRONEF4|src/main/target/FF_PIKOF4|src/main/target/FF_PIKOBLX|src/main/target/FF_FORTINIF4|src/main/target/F4BY|src/main/target/ELLE0|src/main/target/EACHIF3|src/main/target/DOGE|src/main/target/CRAZYFLIE2|src/main/target/COLIBRI_RACE|src/main/target/COLIBRI|src/main/target/CLRACINGF7|src/main/target/CLRACINGF4|src/main/target/CJMCU|src/main/target/CHEBUZZF3|src/main/target/CC3D|src/main/target/BLUEJAYF4|src/main/target/BETAFLIGHTF4|src/main/target/BETAFLIGHTF3|src/main/target/BEEROTORF4|src/main/target/BEEBRAIN_V2F|src/main/target/ANYFCM7|src/main/target/ANYFCF7|src/main/target/ALIENWHOOP|src/main/target/ALIENFLIGHTNGF7|src/main/target/ALIENFLIGHTF4|src/main/target/ALIENFLIGHTF3|src/main/target/ALIENFLIGHTF1|src/main/target/AIRHEROF3|src/main/target/AIR32|src/main/blackbox|src/main/startup/startup_stm32f746xx.s|src/main/startup/startup_stm32f745xx.s|src/main/startup/startup_stm32f722xx.s|src/main/startup/startup_stm32f411xe.s|src/main/startup/startup_stm32f40xx.s|src/main/startup/startup_stm32f3_debug_hardfault_handler.S|src/main/startup/startup_stm32f10x_md_gcc.S|src/main/startup/startup_stm32f10x_hd_gcc.S" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
 				</configuration>
 			</storageModule>
 			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
